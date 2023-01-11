@@ -9,4 +9,4 @@ cd /content/stable-diffusion-webui
 wget https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0.ckpt -O /content/stable-diffusion-webui/models/Stable-diffusion/Anything-V3.0.ckpt
 wget https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0.vae.pt -O /content/stable-diffusion-webui/models/Stable-diffusion/Anything-V3.0.vae.pt
 cp /content/stable-diffusion-webui/models/Stable-diffusion/Anything-V3.0.vae.pt /content/stable-diffusion-webui/models/Stable-diffusion/Anything-V3.0-pruned-fp16.vae.pt
-python /content/stable-diffusion-webui/launch.py --share --gradio-auth oookki:oookky --xformers
+python /content/stable-diffusion-webui/launch.py --share --gradio-auth oookki:oookky --xformers --lowvram
