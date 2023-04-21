@@ -1,6 +1,7 @@
-pip install -q https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.15/xformers-0.0.15+e163309.d20230103-cp38-cp38-linux_x86_64.whl
-pip install xformers
-pip install triton
+pip3 install -q
+https://github.com/camenduru/stable-diffusion-webui-colab/releases/download/0.0.15/xformers-0.0.15+e163309.d20230103-cp38-cp38-linux_x86_64.whl
+pip3 install xformers
+pip3 install triton
 git clone https://github.com/VenGogh/stable-diffusion-webui.git
 git clone https://github.com/deforum-art/deforum-for-automatic1111-webui /content/stable-diffusion-webui/extensions/deforum-for-automatic1111-webui
 git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser /content/stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser
